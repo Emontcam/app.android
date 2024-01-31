@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView2"
+    android:layout_width="wrap_content"
+    android:layout_height="55dp"
+    android:layout_marginTop="32dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/titulo"
+    tools:showIn="@layout/activity_inicio">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/verdeMedio"
+            android:fontFamily="@font/londrina_solid"
+            android:text="@string/categoriaDeportes"
+            android:textColor="@color/verdeOscuro"
+            tools:showIn="@layout/activity_inicio" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/verdeMedio"
+            android:fontFamily="@font/londrina_solid"
+            android:text="@string/categoriaSocial"
+            android:textColor="@color/verdeOscuro" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/verdeMedio"
+            android:fontFamily="@font/londrina_solid"
+            android:text="@string/categoriaCultura"
+            android:textColor="@color/verdeOscuro" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/verdeMedio"
+            android:fontFamily="@font/londrina_solid"
+            android:text="@string/categoriaEducacion"
+            android:textColor="@color/verdeOscuro" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/verdeMedio"
+            android:fontFamily="@font/londrina_solid"
+            android:text="@string/categoriaCivico"
+            android:textColor="@color/verdeOscuro" />
+
+    </LinearLayout>
+</ScrollView>

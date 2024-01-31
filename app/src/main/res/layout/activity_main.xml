@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/aceituna"
+        android:layout_width="391dp"
+        android:layout_height="596dp"
+        android:layout_marginEnd="172dp"
+        android:alpha="0.3"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.53"
+        app:srcCompat="@drawable/acierto" />
+
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="361dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="72dp"
+        android:fontFamily="@font/londrina_solid"
+        android:shadowColor="@color/verde"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/verdeClaro"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/subtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/londrina_solid"
+        android:text="@string/inicioSesion"
+        android:textColor="@color/verdeOscuro"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Titulo" />
+
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="230dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:fontFamily="@font/londrina_solid"
+        android:hint="@string/usuario"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:theme="@style/Theme.EventosJAEN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtitulo" />
+
+    <EditText
+        android:id="@+id/contrasena"
+        android:layout_width="230dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:fontFamily="@font/londrina_solid"
+        android:hint="@string/contrasenia"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:theme="@style/Theme.EventosJAEN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usuario" />
+
+    <EditText
+        android:id="@+id/contrasenaConfirmar"
+        android:layout_width="230dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:fontFamily="@font/londrina_solid"
+        android:hint="@string/contraseniaConfirmar"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:theme="@style/Theme.EventosJAEN"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contrasena" />
+
+    <Button
+        android:id="@+id/iniciarSesion"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="27dp"
+        android:backgroundTint="@color/verdeOscuro"
+        android:fontFamily="@font/londrina_solid"
+        android:text="@string/inicioSesion"
+        android:textColor="@color/verdeClaro"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contrasenaConfirmar" />
+
+    <Button
+        android:id="@+id/crearCuenta"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/verdeOscuro"
+        android:fontFamily="@font/londrina_solid"
+        android:onClick="registro"
+        android:text="@string/registro"
+        android:textColor="@color/verdeClaro"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iniciarSesion"
+        app:layout_constraintVertical_bias="0.037" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

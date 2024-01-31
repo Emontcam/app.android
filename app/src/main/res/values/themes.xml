@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <style name="Base.Theme.EventosJAEN" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/verdeMedio</item>
+        <item name="android:colorForeground">@color/verdeClaro</item>
+        <item name="android:editTextColor">@color/verde</item>
+        <item name="android:colorBackground">@color/verde</item>
+        <item name="android:fontFamily">@font/londrina_solid</item>
+        <item name="buttonStyle">@drawable/botones</item>
+        <item name="radioButtonStyle">@style/RadioButton.EventosJAEN</item>
+    </style>
+
+    <!-- estilo para los RadioButton -->
+    <style name="RadioButton.EventosJAEN" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:textColor">@color/verdeOscuro</item>
+    </style>
+
+    <style name="Theme.EventosJAEN" parent="Base.Theme.EventosJAEN" />
+</resources>

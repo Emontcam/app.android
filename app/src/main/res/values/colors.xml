@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="negro">#121212</color>
+    <color name="rojo">#6B2020</color>
+    <color name="verdeOscuro">#004246</color>
+    <color name="verdeTransparente">#7A206B64</color>
+    <color name="verde">#206B64</color>
+    <color name="verdeAgua">#347B74</color>
+    <color name="verdeMedio">#A5D2CE</color>
+    <color name="verdeClaro">#CCE5E4</color>
+    <color name="gris">#DFE1E1</color>
+    <color name="blanco">#FFFFFFFF</color>
+</resources>

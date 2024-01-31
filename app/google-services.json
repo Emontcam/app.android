@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "849872731414",
+    "project_id": "eventosjaen-d2d16",
+    "storage_bucket": "eventosjaen-d2d16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849872731414:android:7f555c96183d87adaca437",
+        "android_client_info": {
+          "package_name": "com.medac.eventosjaen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFtEboZBQlHDMmPA_0JBi0tzNED8m4ki8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JAEN Events</string>
+    <string name="usuario">Email</string>
+    <string name="contrasenia">Password</string>
+    <string name="inicioSesion">Access</string>
+    <string name="registro">Crear Acount</string>
+    <string name="anadirEvento">Add Event</string>
+    <string name="atras">Back</string>
+    <string name="Anadir">Add</string>
+    <string name="nombreEvento">Name of the event</string>
+    <string name="descripcion">Description (optional)</string>
+    <string name="contraseniaCrear">Create password</string>
+    <string name="contraseniaConfirmar">Confirm password</string>
+</resources>

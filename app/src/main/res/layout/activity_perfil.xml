@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.EventosJAEN">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:background="@color/verdeAgua"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:textAlignment="center"
+        app:flow_horizontalAlign="center"
+        app:flow_verticalAlign="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <ImageView
+            android:id="@+id/favoritosEventos"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/descripcion"
+            android:onClick="irFavoritos"
+            android:scaleX="0.6"
+            android:scaleY="0.6"
+            android:src="@drawable/favoritos"
+            android:textAlignment="gravity"
+            android:tint="@color/verdeMedio" />
+
+        <ImageView
+            android:id="@+id/todosEventos"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/descripcion"
+            android:onClick="irEventos"
+            android:scaleX="0.6"
+            android:scaleY="0.6"
+            android:src="@drawable/eventos"
+            android:textAlignment="gravity"
+            android:tint="@color/verdeMedio" />
+
+        <ImageView
+            android:id="@+id/perfil"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/descripcion"
+            android:scaleX="0.6"
+            android:scaleY="0.6"
+            android:src="@drawable/usuario_activo"
+            android:textAlignment="gravity"
+            android:tint="@color/verdeMedio" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
