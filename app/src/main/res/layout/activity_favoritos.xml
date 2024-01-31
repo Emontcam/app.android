@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:theme="@style/Theme.EventosJAEN">
@@ -8,7 +9,7 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="0dp"
-        android:layout_height="70dp"
+        android:layout_height="0dp"
         android:background="@color/verdeAgua"
         android:gravity="center"
         android:orientation="horizontal"
@@ -17,7 +18,8 @@
         app:flow_verticalAlign="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
 
 
         <ImageView
@@ -30,7 +32,7 @@
             android:scaleY="0.6"
             android:src="@drawable/favoritos_activo"
             android:textAlignment="gravity"
-            android:tint="@color/verdeMedio" />
+            app:tint="@color/verdeMedio" />
 
         <ImageView
             android:id="@+id/todosEventos"
@@ -43,7 +45,7 @@
             android:scaleY="0.6"
             android:src="@drawable/eventos"
             android:textAlignment="gravity"
-            android:tint="@color/verdeMedio" />
+            app:tint="@color/verdeMedio" />
 
         <ImageView
             android:id="@+id/perfil"
@@ -56,7 +58,18 @@
             android:scaleY="0.6"
             android:src="@drawable/usuario"
             android:textAlignment="gravity"
-            android:tint="@color/verdeMedio" />
+            app:tint="@color/verdeMedio" />
 
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+        android:layout_marginBottom="121dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:src="@drawable/acierto" />
 </androidx.constraintlayout.widget.ConstraintLayout>
