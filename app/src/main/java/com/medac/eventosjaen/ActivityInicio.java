@@ -271,13 +271,5 @@ public class ActivityInicio extends Activity {
                    }
                });
    }
-   public void irPerfil(View v){
-       Intent i = new Intent(this, ActivityPerfil.class);
-       startActivity(i);
-   }
 
-    public void irFavoritos(View v){
-        Intent i = new Intent(this, ActivityFavoritos.class);
-        startActivity(i);
-    }
 }

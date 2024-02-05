@@ -30,14 +30,6 @@
             android:theme="@style/Base.Theme.EventosJAEN" />
 
         <activity
-            android:name=".ActivityPerfil"
-            android:theme="@style/Base.Theme.EventosJAEN" />
-
-        <activity
-            android:name=".ActivityFavoritos"
-            android:theme="@style/Base.Theme.EventosJAEN" />
-
-        <activity
             android:name=".ActivityEntrada"
             android:theme="@style/Base.Theme.EventosJAEN" />
         <meta-data
